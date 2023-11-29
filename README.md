@@ -2,10 +2,12 @@
 my home work number 9
 
 Task 1
+
 Improve the task with figures
 Use the Sealed modifier for the "Figure" class.
 
 Task 2
+
 Complete the problem from homework number 5.
 Multiplying two matrices
 Create two 3x3 arrays of integers (two matrices).
@@ -19,7 +21,9 @@ The method must take a two-dimensional array as input, and it must not return an
 Use this static method in a class to solve a matrix multiplication problem.
 Use this static method to output a matrix three times - output the first matrix, output the second matrix, output the result.
 
+
 Task 3
+
 Create a program for transferring from one client’s bank card to his other card.
 The data for translation is specified from the console.
 There is a client.
