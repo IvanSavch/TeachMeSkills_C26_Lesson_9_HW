@@ -1,23 +1,30 @@
 package com.teachmeskills.lesson9.HW.task1.task3.client.card;
 
 public class VisaCard extends BaseCard {
-    VisaCard visaCard;
-    BaseCard baseCard;
-    MasterCard masterCard;
-
+    private static final double COMMISSION_VISA_CARD = 3;
+    private static final int TRANSFER_LIMIT_VISA_CARD = 5;
     public VisaCard(long id, int cardNumber, int cvv, double countSum) {
         super(id, cardNumber, cvv, countSum);
     }
-
     @Override
-    public void bankTransfer(int yourCVV, int cardNumber1, double count) {
-        if (yourCVV != cvv) {
-            System.out.println("Veli is not faithful CVV");
-            return;
+    public boolean checkTransferLimits(double amount) {
+        if (getCountSum() - amount < TRANSFER_LIMIT_VISA_CARD){
+            return false;
         }
-        setCountSum(getCountSum() - count);
-
-
+        return true;
     }
 
+    @Override
+    public double commission() {
+        return COMMISSION_VISA_CARD;
+    }
+
+    @Override
+    public String toString() {
+        return "VisaCard{" +
+                "cardNumber=" + cardNumber +
+                ", cvv=" + cvv +
+                ", countSum=" + countSum +
+                '}';
+    }
 }

@@ -12,7 +12,11 @@ public abstract class BaseCard {
         this.cvv = cvv;
         this.countSum = countSum;
     }
-    public abstract void bankTransfer(int yourCVV,int cardNumber,double countSum);
+
+    public abstract boolean checkTransferLimits(double amount);
+    public abstract double commission ();
+
+
 
     public long getId() {
         return id;
