@@ -1,5 +1,8 @@
 package com.teachmeskills.lesson9.HW.task1;
 
+/**
+ * Improve the task with figures Use the Sealed modifier for the "Figure" class.
+ */
 public class Main {
     public static void main(String[] args) {
         int sum = 0;
