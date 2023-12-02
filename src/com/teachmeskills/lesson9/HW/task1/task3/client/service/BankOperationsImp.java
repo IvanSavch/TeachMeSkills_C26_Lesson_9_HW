@@ -19,7 +19,7 @@ public class BankOperationsImp implements IBankOperations {
             return;
         }
         if (balanceCardFrom - amount -percent > 0) {
-            if (fromCard.checkTransferLimits(fromCard.getCountSum())) {
+            if (fromCard.checkTransferLimits(amount)) {
                 fromCard.setCountSum(balanceCardFrom - amount - percent);
                 System.out.println("the commission fee is " + percent);
                 toCard.setCountSum(balanceCardTo + amount);
