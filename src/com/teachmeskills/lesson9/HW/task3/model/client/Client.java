@@ -1,9 +1,7 @@
-package com.teachmeskills.lesson9.HW.task1.task3.client;
+package com.teachmeskills.lesson9.HW.task3.model.client;
 
-import com.teachmeskills.lesson9.HW.task1.task3.client.card.BaseCard;
-
-import java.util.Arrays;
-import java.util.Date;
+import com.teachmeskills.lesson9.HW.task3.model.address.Address;
+import com.teachmeskills.lesson9.HW.task3.model.card.BaseCard;
 
 public class Client {
     private String name;

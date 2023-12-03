@@ -1,8 +1,6 @@
-package com.teachmeskills.lesson9.HW.task1.task2;
+package com.teachmeskills.lesson9.HW.task2;
 
-import com.teachmeskills.lesson9.HW.task1.task2.utils.Util;
-
-import java.util.Arrays;
+import com.teachmeskills.lesson9.HW.task2.utils.Util;
 
 /**
  * Complete the problem from homework number 5.

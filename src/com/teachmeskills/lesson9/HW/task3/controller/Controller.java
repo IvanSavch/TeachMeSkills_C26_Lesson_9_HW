@@ -1,20 +1,18 @@
-package com.teachmeskills.lesson9.HW.task1.task3.client.starter;
+package com.teachmeskills.lesson9.HW.task3.controller;
 
 
-import com.teachmeskills.lesson9.HW.task1.task3.client.Address;
-import com.teachmeskills.lesson9.HW.task1.task3.client.Client;
-import com.teachmeskills.lesson9.HW.task1.task3.client.IOInterface.ConsoleIO;
-import com.teachmeskills.lesson9.HW.task1.task3.client.IOInterface.IOInterface;
-import com.teachmeskills.lesson9.HW.task1.task3.client.card.BaseCard;
-import com.teachmeskills.lesson9.HW.task1.task3.client.card.BelCard;
-import com.teachmeskills.lesson9.HW.task1.task3.client.card.MasterCard;
-import com.teachmeskills.lesson9.HW.task1.task3.client.card.VisaCard;
-import com.teachmeskills.lesson9.HW.task1.task3.client.service.BankOperationsImp;
-import com.teachmeskills.lesson9.HW.task1.task3.client.service.IBankOperations;
+import com.teachmeskills.lesson9.HW.task3.iointerface.ConsoleIO;
+import com.teachmeskills.lesson9.HW.task3.model.address.Address;
+import com.teachmeskills.lesson9.HW.task3.model.card.impl.BelCard;
+import com.teachmeskills.lesson9.HW.task3.model.client.Client;
+import com.teachmeskills.lesson9.HW.task3.service.IBankOperations;
+import com.teachmeskills.lesson9.HW.task3.iointerface.IOInterface;
+import com.teachmeskills.lesson9.HW.task3.model.card.BaseCard;
+import com.teachmeskills.lesson9.HW.task3.model.card.impl.MasterCard;
+import com.teachmeskills.lesson9.HW.task3.model.card.impl.VisaCard;
+import com.teachmeskills.lesson9.HW.task3.service.BankOperationsImp;
 
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 
 public class Controller {

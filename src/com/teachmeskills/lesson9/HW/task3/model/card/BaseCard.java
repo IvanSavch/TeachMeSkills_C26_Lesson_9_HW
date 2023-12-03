@@ -1,4 +1,4 @@
-package com.teachmeskills.lesson9.HW.task1.task3.client.card;
+package com.teachmeskills.lesson9.HW.task3.model.card;
 
 public abstract class BaseCard {
     private long id;

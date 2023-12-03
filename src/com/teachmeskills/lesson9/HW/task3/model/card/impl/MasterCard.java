@@ -1,4 +1,6 @@
-package com.teachmeskills.lesson9.HW.task1.task3.client.card;
+package com.teachmeskills.lesson9.HW.task3.model.card.impl;
+
+import com.teachmeskills.lesson9.HW.task3.model.card.BaseCard;
 
 public class MasterCard extends BaseCard {
     private static final double COMMISSION_MASTER_CARD = 2.5;

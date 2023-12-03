@@ -1,4 +1,4 @@
-package com.teachmeskills.lesson9.HW.task1.task3.client.IOInterface;
+package com.teachmeskills.lesson9.HW.task3.iointerface;
 
 import java.io.BufferedReader;
 import java.io.IOException;

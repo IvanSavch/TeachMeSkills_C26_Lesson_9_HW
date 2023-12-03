@@ -1,4 +1,4 @@
-package com.teachmeskills.lesson9.HW.task1.task2.utils;
+package com.teachmeskills.lesson9.HW.task2.utils;
 
 public class Util {
     public static void matrixMultiplication(int[][] array1, int[][] array2 ) {

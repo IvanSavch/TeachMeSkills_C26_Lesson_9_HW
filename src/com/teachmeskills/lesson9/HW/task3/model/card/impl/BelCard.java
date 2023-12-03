@@ -1,6 +1,8 @@
-package com.teachmeskills.lesson9.HW.task1.task3.client.card;
+package com.teachmeskills.lesson9.HW.task3.model.card.impl;
 
-public class BelCard extends BaseCard{
+import com.teachmeskills.lesson9.HW.task3.model.card.BaseCard;
+
+public class BelCard extends BaseCard {
     private static final double COMMISSION_BEL_CARD = 2;
     public static final int TRANSFER_LIMIT_BEL_CARD = 7;
 

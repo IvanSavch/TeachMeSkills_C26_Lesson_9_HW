@@ -1,6 +1,5 @@
-package com.teachmeskills.lesson9.HW.task1.task3.client;
+package com.teachmeskills.lesson9.HW.task3.model.address;
 
-import java.util.Date;
 public class Address {
     private int postcode;
     private String country;
